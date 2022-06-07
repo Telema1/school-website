@@ -4,9 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
     <title>School website</title>
 </head>
 <body>
+    <div class="container-fluid px-0"> 
+        <div class="menu"></div>
+        <div class="body">
+
+        </div>
+        <div class="footer"></div>
+    </div>
+
+   
     
+    
+    
+
+
+
+
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="bootstrap/js/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $(".menu").load("head.html")
+            $(".footer").load("head.html")
+        })
+    </script>
+ 
 </body>
 </html>
