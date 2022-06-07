@@ -5,13 +5,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <title>School website</title>
+    <style>
+        body{
+            overflow-x: hidden;
+        }
+        
+    </style>
 </head>
 <body>
-    <div class="container-fluid px-0"> 
+
+    <div class="container-fluid px-0 "> 
         <div class="menu"></div>
         <div class="body">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/1.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/2.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/Untitled-2.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </button>
+              </div>
+            <section>
+              <h2 class="text-center mt-3 ">Our Vision</h2>
+              <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia unde magnam pariatur? Totam nulla maiores fuga et asperiores culpa explicabo, doloremque quisquam exercitationem repellat deserunt commodi. Delectus deserunt magni provident minus assumenda, obcaecati repellendus quasi, impedit qui quos harum eos sint iste tempora. Voluptatibus praesentium, perspiciatis corporis, qui, eligendi assumenda atque molestiae culpa quo itaque repellat! Ut molestiae, at hic qui, amet omnis eum quaerat modi minima facilis enim, architecto aut praesentium repudiandae quis laudantium blanditiis recusandae ad exercitationem iusto. Quas aut iusto rerum cupiditate neque dicta? Doloremque ullam consectetur quae, ex rerum ab commodi. Cum nostrum perspiciatis, tenetur debitis sunt voluptas adipisci assumenda esse. Fugit voluptatum corrupti ipsam molestiae quam optio iste, doloribus consectetur alias provident accusamus eaque et dolorem vitae! Ea voluptates voluptatem ullam rerum, assumenda nesciunt officia aperiam voluptas nemo, minima corporis doloribus tenetur placeat voluptatum quae laboriosam in quo pariatur sit quasi saepe tempora. Vitae cupiditate, sequi aliquid recusandae esse eius. Cum animi maiores perspiciatis error cupiditate molestiae? Eveniet nulla ipsa eos inventore beatae consectetur nesciunt dicta, repellat, accusantium, culpa aliquam sed animi. Libero sit quae architecto numquam, voluptas nesciunt assumenda delectus vitae, 
+                asperiores nobis hic unde a suscipit deleniti? Illum voluptatum veniam officiis autem enim!</p>
+                <a href="about.html" class="btn btn-success">Explore now</a>
+            </section>
+
+            <section>
+              <h2 class="text-center mt-3">Upcoming Events</h2>
+              <div class="row">
+                <div class="col-lg-4 col-sm-12 text-center">
+                  <i class='bx bx-calendar mt-2'>5th June</i>
+                <p class="mt-2">Cultural day</p>
+                <i class='bx bx-time'>10:00am - 2:00pm</i>
+                </div>
+                <div class="col-lg-4 col-sm-12 text-center">
+                  <i class='bx bx-calendar mt-2'>10th June</i>
+                <p class="mt-2">School Anniversary</p>
+                <i class='bx bx-time'>10:00am - 2:00pm</i>
+                </div>
+                <div class="col-lg-4 col-sm-12 text-center">
+                  <i class='bx bx-calendar mt-2'>30th June</i>
+                <p class="mt-2">Carrer day</p>
+                <i class='bx bx-time'>10:00am - 2:00pm</i>
+                </div>
+
+                
+              </div>
+            </section>
+             
 
         </div>
         <div class="footer"></div>
@@ -33,7 +96,7 @@
     <script>
         $(document).ready(function(){
             $(".menu").load("head.html")
-            $(".footer").load("head.html")
+            $(".footer").load("foot.html")
         })
     </script>
  
