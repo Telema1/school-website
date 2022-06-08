@@ -15,6 +15,10 @@ body{
   width: 100%;
 
 }
+.footer{
+  width: 100%;
+  overflow-x: hidden !important;
+}
   section p{
     color: #fff;
 }
