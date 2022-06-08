@@ -12,6 +12,7 @@ body{
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/bg1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100%;
 
 }
   section p{
@@ -38,8 +39,7 @@ section i{
 
 .foot{
   background-color: rgba(179, 173, 173, 0.993);
-  justify-content: center;
-    text-align: center;
+  text-align: center;
 }
 
 .under{
