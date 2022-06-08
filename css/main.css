@@ -1,10 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-.logo
+body{
+  font-family: 'Ubuntu', sans-serif;
+  overflow-x: hidden !important;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/bg1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+  section p{
+    color: #fff;
+}
+
+section i{
+  color: #fff;
+}
+
+
+
+
+
 
 .cta{
   margin-left: 38rem;
@@ -13,12 +34,17 @@
 }
 
 .foot{
-  background-color: rgb(179, 173, 173, 0.5);
+  background-color: rgba(179, 173, 173, 0.993);
   justify-content: center;
     text-align: center;
 }
 
 .under{
   text-align: center;
-  background-color: rgba(95, 94, 94, 0.5);
+  background-color: rgba(138, 136, 136, 0.658);
+}
+
+.events{
+  display: flex;
+  justify-content: space-around;
 }
