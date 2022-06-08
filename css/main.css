@@ -15,6 +15,14 @@ body{
   width: 100%;
 
 }
+
+.headerr{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+.h-slide{
+  margin-top: 7.5rem;
+}
 .footer{
   width: 100%;
   overflow-x: hidden !important;
@@ -27,19 +35,14 @@ section i{
   color: #fff;
 }
 
+.row{
+  overflow-x: hidden !important;
+}
 
-
-
-
-
-/* .cta{
-  margin-left: 600px;
-  margin-top: 3px;
-  margin-bottom: 3px;
-} */
-/* .cta{
-  margin-left: 200px;
-} */
+.vision{
+  padding: 0 130px;
+  margin-top: 4rem;
+}
 
 .foot{
   background-color: rgba(179, 173, 173, 0.993);
@@ -51,7 +54,11 @@ section i{
   background-color: rgba(138, 136, 136, 0.658);
 }
 
-.events{
-  display: flex;
-  justify-content: space-around;
+.events p{
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.events p:hover{
+  color: orange;
 }
