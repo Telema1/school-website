@@ -13,11 +13,24 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-
+  scroll-behavior: smooth;
 }
 
 .headerr{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+.headerr a{
+  color: blue !important;
+  font-size: 20px;
+}
+
+.top {
+  padding: 10px 20px !important;
+}
+
+.top:hover{
+  font-size: 21px;
 }
 
 .h-slide{
@@ -40,18 +53,63 @@ section i{
 }
 
 .vision{
-  padding: 0 90px;
+  padding: 0 50px;
   margin-top: 4rem;
 }
 
+.vision p{
+  text-align: justify;
+  font-size: 20px;
+}
+
+.admmit {
+  text-align: justify;
+  font-size: 20px;
+  padding: 0px 50px;
+}
+
+.vision-img{
+  margin-top: 8rem !important;
+  padding: 0 30px;
+}
+
+
 .foot{
-  background-color: rgba(179, 173, 173, 0.993);
+  background-color: rgba(5, 5, 5, 0.993);
   text-align: center;
+}
+
+.foot a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.foot a:hover{
+  color: pink;
+
+}
+
+#contact p{
+  font-size: 18px;
+}
+
+.bxl-facebook-circle,
+.bxl-twitter,
+.bxl-instagram{
+  font-size: 50px !important;
+  color: #fff !important;
+}
+
+.bxl-facebook-circle:hover,
+.bxl-twitter:hover,
+.bxl-instagram:hover{
+    color: pink !important;
 }
 
 .under{
   text-align: center;
-  background-color: rgba(138, 136, 136, 0.658);
+  background-color: rgba(65, 63, 63, 0.658);
 }
 
 .events p{
