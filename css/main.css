@@ -68,10 +68,42 @@ section i{
   padding: 0px 50px;
 }
 
-.vision-img{
-  margin-top: 8rem !important;
+.about-us{
+  margin-top: 9rem !important;
   padding: 0 30px;
 }
+
+.about-us p{
+  text-align: justify;
+  font-size: 20px;
+}
+
+.vision-img{
+  margin-top: 2rem !important;
+  padding: 0 30px;
+  
+}
+
+.vision-img p{
+  text-align: justify;
+  font-size: 20px;
+}
+
+.mission-img{
+  margin-top: 2rem !important;
+  padding: 0 30px;
+  
+}
+
+.mission-img p{
+  text-align: justify;
+  font-size: 20px;
+}
+
+.vm-img{
+   /* margin-top: 7rem; */
+}
+
 
 
 .foot{
