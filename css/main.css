@@ -100,11 +100,23 @@ section i{
   font-size: 20px;
 }
 
-/* .vm-img{
+.vm-img{
    margin-top: 7rem;
-} */
+   margin-bottom: 50px;
+}
 
+.teacher{
+  transition: 1s;
+}
 
+.teacher:hover{
+ transform: scale(1.1);
+}
+
+.facility{
+  margin-top: 9rem !important;
+  padding: 0 30px;
+}
 
 .foot{
   background-color: rgba(5, 5, 5, 0.993);
