@@ -138,10 +138,21 @@ section i{
  margin-bottom: 5rem;
 }
 
+.mail a{
+  text-decoration: none;
+  list-style-type: none;
+}
+
+
 .phone{
   margin-bottom: 5rem;
   margin-right: 3rem;
- }
+}
+
+.phone a{
+  text-decoration: none;
+  list-style-type: none;
+}
 
 .location{
   width: 46px;
@@ -159,12 +170,14 @@ iframe{
 .foot{
   background-color: rgba(5, 5, 5, 0.993);
   text-align: center;
+  
 }
 
 .foot a{
   color: white;
   text-decoration: none;
   font-size: 20px;
+
 }
 
 .foot a:hover{
@@ -174,6 +187,7 @@ iframe{
 
 #contact p{
   font-size: 18px;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .bxl-facebook-circle,
